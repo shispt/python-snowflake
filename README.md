@@ -6,11 +6,11 @@ code.
 
     >>> import snowflake
     >>> s = snowflake.generator(1, 1)
-    >>> s.next()
+    >>> next(s)
     1132805160360349696
-    >>> s.next()
+    >>> next(s)
     1132805164143611904
-    >>> s.next()
+    >>> next(s)
     1132805168782512128
 
     # convenience to convert a snowflake to a unix timestamp
